@@ -1,17 +1,17 @@
 # HyperLayer
 
 <p align="center">
-&#x20; \<strong>A HyperOS interface layer for Samsung One UI.\</strong>
-&#x20; \<br>
-&#x20; Integrating Xiaomi's software experience while preserving the Samsung system.
+  <strong>A HyperOS interface layer for Samsung One UI.</strong>
+  <br>
+  Integrating Xiaomi's software experience while preserving the Samsung system.
 </p>
 
 <p align="center">
-&#x20; ![Status]([https://img.shields.io/badge/status-in%20development-orange](https://img.shields.io/badge/status-in%20development-orange))
-&#x20; ![Platform]([https://img.shields.io/badge/platform-Android-green](https://img.shields.io/badge/platform-Android-green))
-&#x20; ![One UI]([https://img.shields.io/badge/One%20UI-9-blue](https://img.shields.io/badge/One%20UI-9-blue))
-&#x20; ![Android]([https://img.shields.io/badge/Android-17-brightgreen](https://img.shields.io/badge/Android-17-brightgreen))
-&#x20; ![License]([https://img.shields.io/badge/license-Apache--2.0-blue](https://img.shields.io/badge/license-Apache--2.0-blue))
+  <img src="https://img.shields.io/badge/Status-In%20Development-orange" />
+  <img src="https://img.shields.io/badge/Platform-Android-green" />
+  <img src="https://img.shields.io/badge/One%20UI-9-blue" />
+  <img src="https://img.shields.io/badge/Android-17-brightgreen" />
+  <img src="https://img.shields.io/badge/License-Apache--2.0-blue" />
 </p>
 
 ---
@@ -42,16 +42,16 @@ Advanced integrations may require additional permissions, root access or a syste
 
 The project aims to integrate the following components:
 
-| Component      | Description                                                    |
-| -------------- | -------------------------------------------------------------- |
-| Launcher       | HyperOS home screen, application drawer and desktop management |
-| Control Center | HyperOS-style quick settings interface                         |
-| Notifications  | Adapted notification interface and interactions                |
-| Status Bar     | Visual customization and system integration                    |
-| Lock Screen    | HyperOS-inspired lock screen components                        |
-| Animations     | Interface transitions and window animations                    |
-| Widgets        | Xiaomi widget integration and compatibility                    |
-| Visual Effects | Blur, transparency and interface styling                       |
+| Component | Description |
+|---|---|
+| Launcher | HyperOS home screen, application drawer and desktop management |
+| Control Center | HyperOS-style quick settings interface |
+| Notifications | Adapted notification interface and interactions |
+| Status Bar | Visual customization and system integration |
+| Lock Screen | HyperOS-inspired lock screen components |
+| Animations | Interface transitions and window animations |
+| Widgets | Xiaomi widget integration and compatibility |
+| Visual Effects | Blur, transparency and interface styling |
 
 Feature availability will depend on the capabilities and limitations of the underlying Samsung system.
 
@@ -78,14 +78,14 @@ HyperLayer manages the adapted interface components and provides the compatibili
 
 Initial development and testing are focused on the following configuration:
 
-| Specification    | Target                                 |
-| ---------------- | -------------------------------------- |
-| Device           | Samsung Galaxy S23                     |
-| Model            | SM-S911B                               |
-| Processor        | Qualcomm Snapdragon 8 Gen 2 for Galaxy |
-| Architecture     | ARM64                                  |
-| Operating System | One UI 9                               |
-| Android Version  | Android 17                             |
+| Specification | Target |
+|---|---|
+| Device | Samsung Galaxy S23 |
+| Model | SM-S911B |
+| Processor | Qualcomm Snapdragon 8 Gen 2 for Galaxy |
+| Architecture | ARM64 |
+| Operating System | One UI 9 |
+| Android Version | Android 17 |
 
 Additional Samsung devices may be supported in future development stages.
 
