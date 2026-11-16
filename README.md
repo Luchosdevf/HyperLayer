@@ -1,4 +1,3 @@
-
 # HyperLayer
 
 <p align="center">
@@ -8,11 +7,11 @@
 </p>
 
 <p align="center">
-&#x20; ![Status]\([https://img.shields.io/badge/status-in%20development-orange](https://img.shields.io/badge/status-in%20development-orange))
-&#x20; ![Platform]\([https://img.shields.io/badge/platform-Android-green](https://img.shields.io/badge/platform-Android-green))
-&#x20; ![One UI]\([https://img.shields.io/badge/One%20UI-9-blue](https://img.shields.io/badge/One%20UI-9-blue))
-&#x20; ![Android]\([https://img.shields.io/badge/Android-17-brightgreen](https://img.shields.io/badge/Android-17-brightgreen))
-&#x20; ![License]\([https://img.shields.io/badge/license-Apache--2.0-blue](https://img.shields.io/badge/license-Apache--2.0-blue))
+&#x20; ![Status]([https://img.shields.io/badge/status-in%20development-orange](https://img.shields.io/badge/status-in%20development-orange))
+&#x20; ![Platform]([https://img.shields.io/badge/platform-Android-green](https://img.shields.io/badge/platform-Android-green))
+&#x20; ![One UI]([https://img.shields.io/badge/One%20UI-9-blue](https://img.shields.io/badge/One%20UI-9-blue))
+&#x20; ![Android]([https://img.shields.io/badge/Android-17-brightgreen](https://img.shields.io/badge/Android-17-brightgreen))
+&#x20; ![License]([https://img.shields.io/badge/license-Apache--2.0-blue](https://img.shields.io/badge/license-Apache--2.0-blue))
 </p>
 
 ---
