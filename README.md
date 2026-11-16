@@ -55,24 +55,42 @@ The project aims to integrate the following components:
 
 Feature availability will depend on the capabilities and limitations of the underlying Samsung system.
 
-## System Architecture
+## Before & After
 
-HyperLayer operates as an additional software layer rather than a replacement operating system.
+### Before — Stock One UI
+
+The device uses Samsung's original interface and system components.
 
 ```mermaid
-flowchart TD
-    A[HyperLayer Application] --> B[Activation Manager]
-    B --> C[HyperOS Components]
-    B --> D[Compatibility Layer]
-    C --> E[Samsung One UI]
-    D --> E
-    E --> F[Android System]
-    F --> G[Samsung Hardware]
+flowchart TB
+    A["User"] --> B["One UI Interface"]
+    B --> C["Samsung System Components"]
+    C --> D["Android Framework & Services"]
+    D --> E["Samsung Kernel & Drivers"]
+    E --> F["Device Hardware"]
 ```
 
-The original One UI environment remains responsible for hardware support, drivers, security and core Android services.
+### After — One UI with HyperLayer
 
-HyperLayer manages the adapted interface components and provides the compatibility mechanisms required for their integration.
+HyperLayer introduces an additional interface layer while retaining Samsung's underlying system.
+
+```mermaid
+flowchart TB
+    A["User"] --> B["HyperOS Interface"]
+    B --> C["HyperLayer Application"]
+    C --> D["Compatibility Layer"]
+    D --> E["Samsung One UI & System Services"]
+    E --> F["Android Framework"]
+    F --> G["Samsung Kernel & Drivers"]
+    G --> H["Device Hardware"]
+    
+    D -.-> I["Optional System Integrations"]
+    I -.-> E
+```
+
+The intended result is to replace or adapt selected interface components without replacing the underlying Android environment, hardware support or essential Samsung services.
+
+*The diagrams represent the intended architecture and are subject to changes during development.*
 
 ## Target Platform
 
