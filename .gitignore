@@ -1,0 +1,10 @@
+# APKs (binarios grandes)
+apks/original/*.apk
+apks/dependencies/*.apk
+builds/*/*.apk
+
+# Decompilados
+decompiled/
+
+# OS
+.DS_Store

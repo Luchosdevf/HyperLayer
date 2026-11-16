@@ -1,0 +1,5 @@
+Native libraries in /home/luchovsky/HyperOS Launcher Port/HyperOSCompat/apks/original/MiuiHome.apk:
+ 29382056  2009-01-01 00:00   lib/arm64-v8a/libapp.so
+ 16213368  2009-01-01 00:00   lib/arm64-v8a/libapp_launcher.so
+  2679408  2009-01-01 00:00   lib/arm64-v8a/libnative_widget_sdk.so
+  1813032  2009-01-01 00:00   lib/arm64-v8a/libresources_frb.so
